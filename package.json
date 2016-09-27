@@ -1,0 +1,11 @@
+  {
+    "name": "cahome",
+  "description": "Home Page for Crack Analytics",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "~4.9.8"
+  }
+}
