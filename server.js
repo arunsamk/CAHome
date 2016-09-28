@@ -7,7 +7,7 @@ var port = process.env.PORT || 7070;
 
 //Making express to look in the public directory for (css, js, html .....).
 application.use(express.static(__dirname + '/public'));
-//application.use('/articles', express.static(__dirname + '/articles'));
+application.use('/node_modules', express.static(__dirname + '/node_modules'));
 
 //Setting the home page
 application.get('/', function(request, response){

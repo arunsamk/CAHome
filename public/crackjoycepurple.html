@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--<link rel="stylesheet" href="/node_modules/dist/css/bootstrap.min.css" type="text/css">-->
   <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -161,9 +162,9 @@ a{
       color: #fff !important;
   }
   footer .glyphicon {
-      font-size: 20px;
+      font-size: 15px;
       margin-bottom: 20px;
-      color: #f4511e;
+      color: gray;
   }
   .testbord{
     border:1px solid red;
@@ -248,6 +249,11 @@ div.polaroid {
   }
   footer {
           background-color: black;
+      }
+      .tborder{
+          width: 100px;
+         padding: 5px;
+          border:1px solid white;
       }
   </style>
 </head>
@@ -574,23 +580,50 @@ div.polaroid {
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <!--<p>Bootstrap Theme Made By <a href="http://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>-->
+
+  <div class="container">
     <div class="row">
-    <div class="col-sm-4">
-        <ul class="list-unstyled" style="margin-left:  left;">
-        <li><a href="#mypage">QUESTION BANK</a></li>
-        <li><a href="#mypage">COURSE VIDEO</a></li>
-        <li><a href="#mypage">ASSESSMENT</a></li>
-        <li><a href="#mypage">GUESTIMATES</a></li>
-        <li><a href="#mypage">MOCK INTERVIEW</a></li>
-        <li><a href="#mypage">SEND CV</a></li>
-        </ul>
-        </div>
-    <div class="col-sm-8">
-         <a href="https://www.facebook.com/" class="icoFacebook" title="Facebook"><i class="fa fa-facebook fa-lg"></i></a>
+    <div class="col-sm-2">
+        <p><font color="white"> Follow us</font></p>
+        <a href="https://www.facebook.com/" class="icoFacebook" title="Facebook"><i class="fa fa-facebook fa-lg"></i></a>
         <a href="https://twitter.com/" class="icoTwitter" title="Twitter"><i class="fa fa-twitter fa-lg"></i></a>
-        <p> <span class="glyphicon glyphicon-copyright-mark">2016.All Rights Reserved Terms of Use and Privacy Policy </span></p>
     </div>
+        <div class="col-sm-2">
+            <p><font color="white">Company</font></p>
+            <a href="#mypage">About Us</a>
+        </div>
+         <div class="col-sm-2">
+             <p><font color="white">Learn</font></p>
+             <ul class="list-unstyled">
+             <li><a href="#mypage">Question Bank</a></li>
+             <li><a href="#mypage">Course Video</a></li>
+             </ul>
+         </div>
+        <div class="col-sm-2">
+            <p><font color="white">Skill Test</font></p>
+             <ul class="list-unstyled">
+             <li><a href="#mypage">Assessment</a></li>
+             <li><a href="#mypage">Guestimates</a></li>
+             </ul>
+        </div>
+        <div class="col-sm-2">
+            <p><font color="white">Carrier Builder</font></p>
+            <ul class="list-unstyled">
+            <li><a href="#mypage">Mock Interview</a></li>
+            <li><a href="#mypage">Send CV</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-2  ">
+        <p><font color="white">Learn On the Go!</font></p>
+        <a href="#" class="tborder"><i class="fa fa-android" aria-hidden="true"></i>Get the Android App</a>
+        </div>
+        </div>
+    <div class="row">
+    <div class="col-sm-12 text-center">
+        <p><span class="glyphicon glyphicon-copyright-mark">2016.All Rights Reserved Terms of Use and Privacy Policy </span></p>
     </div>
+    </div></div>
+   
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
